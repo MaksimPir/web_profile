@@ -2,8 +2,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-size: 18px;
+    color: black;
 }
-html, body {
+html, body, main {
     height: 100%;
 }
 .page {
@@ -33,15 +34,22 @@ main {
     margin-bottom: 10px;
 }
 
-.contentBlock__groupBt {
+.contentBlock__groupBtn {
     display: flex;
+    justify-content: center;
+
 }
 
 .groupBtn__btn {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    width: max-content;
     background-color: rgb(13, 241, 13);
     margin-bottom: 3px;
 }
 
 .groupBtn__btn:hover {
     background-color: rgb(6, 119, 6);
+    cursor: pointer;
 }
